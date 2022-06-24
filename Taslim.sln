@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Core", "01_Core", "{8D02AF84-D09E-49EB-A8FD-DA8B5D957F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Infrastructure", "02_Infrastructure", "{47120C90-3E62-4E25-9A19-B947CD5A255A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taslim.Core.Domain", "Taslim.Core.Domain\Taslim.Core.Domain.csproj", "{677560CB-CF6A-45DB-BC7C-C6B3FCCDDCFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taslim.Core.Contracts", "Taslim.Core.Contracts\Taslim.Core.Contracts.csproj", "{215B1F30-AE23-4FAA-99DC-8307EC7CEB22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taslim.Core.ApplicationService", "Taslim.Core.ApplicationService\Taslim.Core.ApplicationService.csproj", "{2F270DB2-37FF-47EC-9020-FEB6272EB210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taslim.Infrastructure.Data", "Taslim.Infrastructure.Data\Taslim.Infrastructure.Data.csproj", "{D368ECAC-422D-4411-8BEE-AC55F14AE5BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taslim.Infrastructure.EF", "Taslim.Infrastructure.EF\Taslim.Infrastructure.EF.csproj", "{AEA1FC3E-AA68-460D-B1D4-A9E4636759EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationHost", "PresentationHost\PresentationHost.csproj", "{E2DE8393-A8E1-41C8-B870-77D25F9F8535}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{677560CB-CF6A-45DB-BC7C-C6B3FCCDDCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677560CB-CF6A-45DB-BC7C-C6B3FCCDDCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677560CB-CF6A-45DB-BC7C-C6B3FCCDDCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677560CB-CF6A-45DB-BC7C-C6B3FCCDDCFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215B1F30-AE23-4FAA-99DC-8307EC7CEB22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215B1F30-AE23-4FAA-99DC-8307EC7CEB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215B1F30-AE23-4FAA-99DC-8307EC7CEB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215B1F30-AE23-4FAA-99DC-8307EC7CEB22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F270DB2-37FF-47EC-9020-FEB6272EB210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F270DB2-37FF-47EC-9020-FEB6272EB210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F270DB2-37FF-47EC-9020-FEB6272EB210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F270DB2-37FF-47EC-9020-FEB6272EB210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D368ECAC-422D-4411-8BEE-AC55F14AE5BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D368ECAC-422D-4411-8BEE-AC55F14AE5BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D368ECAC-422D-4411-8BEE-AC55F14AE5BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D368ECAC-422D-4411-8BEE-AC55F14AE5BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA1FC3E-AA68-460D-B1D4-A9E4636759EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA1FC3E-AA68-460D-B1D4-A9E4636759EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA1FC3E-AA68-460D-B1D4-A9E4636759EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA1FC3E-AA68-460D-B1D4-A9E4636759EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DE8393-A8E1-41C8-B870-77D25F9F8535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DE8393-A8E1-41C8-B870-77D25F9F8535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DE8393-A8E1-41C8-B870-77D25F9F8535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DE8393-A8E1-41C8-B870-77D25F9F8535}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{677560CB-CF6A-45DB-BC7C-C6B3FCCDDCFB} = {8D02AF84-D09E-49EB-A8FD-DA8B5D957F9A}
+		{215B1F30-AE23-4FAA-99DC-8307EC7CEB22} = {8D02AF84-D09E-49EB-A8FD-DA8B5D957F9A}
+		{2F270DB2-37FF-47EC-9020-FEB6272EB210} = {8D02AF84-D09E-49EB-A8FD-DA8B5D957F9A}
+		{D368ECAC-422D-4411-8BEE-AC55F14AE5BF} = {47120C90-3E62-4E25-9A19-B947CD5A255A}
+		{AEA1FC3E-AA68-460D-B1D4-A9E4636759EF} = {47120C90-3E62-4E25-9A19-B947CD5A255A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D614489-18A6-4FFF-AE0D-948A314CCD50}
+	EndGlobalSection
+EndGlobal

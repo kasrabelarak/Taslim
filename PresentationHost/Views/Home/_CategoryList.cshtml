@@ -1,0 +1,10 @@
+﻿@model   List<Taslim.Core.Domain.DTOs.CategoryDTO>
+
+<div class="list-group">
+    @foreach (var item in Model)
+    {
+        <a href="~/home/index?categoryId=@item.CategoryId" class="list-group-item list-group-item-action"><span class="badge badge-warning">@item.NewsCount</span>@item.Title</a>
+    }
+
+
+</div>
